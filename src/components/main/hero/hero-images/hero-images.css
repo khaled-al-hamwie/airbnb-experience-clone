@@ -1,1 +1,11 @@
-.hero-images {}
+.hero-images-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-block-start: 30px;
+}
+
+.hero-images-container img {
+    transform: scaleX(1.4);
+
+}
