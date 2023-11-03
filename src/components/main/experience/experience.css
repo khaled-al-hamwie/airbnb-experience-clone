@@ -1,0 +1,6 @@
+.experiences-section {
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    z-index: 10;
+}

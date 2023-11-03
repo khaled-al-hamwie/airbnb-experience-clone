@@ -1,0 +1,91 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 180px;
+    height: 290px;
+    gap: 4px;
+}
+
+.card-image {
+    width: 176px;
+    height: 235px;
+    position: relative;
+}
+
+.card-image p {
+    top: -4px;
+    left: 6px;
+    position: absolute;
+    color: #222;
+
+    text-align: center;
+    font-family: Poppins;
+    font-size: 10.24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    border-radius: 2px;
+    background: #FFF;
+    width: fit-content;
+    padding: 6px;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.card-rating {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+}
+
+.card-rating img {
+    width: 14px;
+    height: 14px;
+
+}
+
+.card-rating h2 {
+    color: #222;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%;
+    margin: 0;
+}
+
+.card-rating p {
+    color: #918E9B;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%;
+    margin: 0;
+}
+
+.card-describtion {
+    color: #222;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 110%;
+    margin: 0;
+}
+
+.card-price {
+    color: #222;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 110%;
+    margin: 0;
+}
